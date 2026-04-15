@@ -1,0 +1,116 @@
+/* Import Google Font for header */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #DEDACD;
+}
+
+/* Header with different font */
+header {
+    background-color: #403D2A;
+    color: #DEDACD;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Product Card */
+.card {
+    background: #FFFFFF;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Images */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Price */
+.price {
+    color: #A1AF8D;
+    font-weight: bold;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #403D2A;
+    color: #DEDACD;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Button hover */
+.btn:hover {
+    background-color: #A1AF8D;
+    color: #403D2A;
+}
+
+/* Footer with different font */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #403D2A;
+    color: #DEDACD;
+    font-family: "Courier New", monospace;
+}
+
+/* Contact link */
+.contact-link {
+    color: #A1AF8D;
+}
+
+/* Text styling */
+h2 {
+    color: #403D2A;
+}
+
+p {
+    color: #9E9B94;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #9E9B94;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #403D2A;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.navbar a:hover {
+    color: #DEDACD;
+}
+
+/* Extra sections */
+.info-section {
+    text-align: center;
+    padding: 30px;
+}
